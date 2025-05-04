@@ -7,5 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-VOLUME "/root/.local/share/multi_vote_bot"
 CMD [ "python", "src/run.py" ]
